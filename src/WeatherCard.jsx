@@ -1,5 +1,7 @@
 
 import WeatherComponent from "./WeatherComponent"
+import cloudyImg from "./assets/cloudy.png"
+import clearImg from "./assets/clear.png"
 
 export default function WeatherCard({cityName,temperature,
           weatherStatus ,
@@ -12,7 +14,14 @@ export default function WeatherCard({cityName,temperature,
                 <section>
                     <p className="cityname"><span>{cityName}</span></p>
                     <p className="temperature"><span>{temperature} °C</span></p>
-                    <p className="weathertype"><span>{weatherStatus}</span></p>
+                     <figure className="weathertype">
+                      {weatherStatus?.toLowerCase() === "clouds" && <img src={cloudyImg} alt="cloudy" />}  
+                      {weatherStatus?.toLowerCase() === "clear" && <img src={clearImg} alt="clear"/> }
+                        <figcaption>{weatherStatus}</figcaption>
+                     </figure>
+                    
+                        
+                        
                 </section>
 
                 <section className="component">
