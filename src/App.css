@@ -1,0 +1,93 @@
+* {
+    font-family: "roboto";
+
+
+
+
+
+}
+
+body {
+    width: 40%;
+   
+    border-radius: 20px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 10px 0 50px;
+   box-shadow: 0px 8px 20px 10px rgba(0, 0, 0, 0.23);
+}
+
+#searchbox {
+    font-size: 1.5rem;
+    height: 1.5em;
+
+    border-radius: 10px;
+    outline: none;
+    box-shadow: 0px 8px 20px 10px rgba(0, 0, 0, 0.23);
+    padding: 3px;
+    border: none;
+
+}
+
+#searchbox,
+.weathercard {
+
+    margin: 5px auto;
+    width: 70%;
+    border-radius: 10px;
+
+    box-shadow: 0px 2px 10px 4px rgba(0, 0, 0, 0.23);
+    padding: 3px;
+    border: none;
+    padding: 0 20px;
+
+}
+
+.weathercard {
+    padding: 20px;
+}
+
+.section-searchbox {
+    margin-bottom: 20px;
+    /* border: 2px solid green; */
+}
+
+.cityname,
+.temperature,.weathertype {
+    text-align: left;
+    /* margin-left: 40px; */
+    font-size: 1.6rem;
+    font-weight: 500;
+    /* border: 2px solid red; */
+    padding: 0;
+    margin: 5px;
+}
+
+.temperature {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.weathertype{
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+.weathercomponent{
+    height: 60px;
+    width: 120px;
+    padding: 10px;
+    background-color: #827f7f;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 1.4em;
+    
+}
+
+.weathercomponent p{
+    margin: 0;
+    text-align: left;
+    font-weight: 600;
+}
+.component{
+    display: flex;
+    justify-content: space-between;
+}
