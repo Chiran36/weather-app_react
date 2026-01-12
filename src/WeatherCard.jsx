@@ -1,7 +1,7 @@
 
 import WeatherComponent from "./WeatherComponent"
-import cloudyImg from "./assets/cloudy.png"
-import clearImg from "./assets/clear.png"
+import cloudyImg from "../assets/cloudy.png"
+import clearImg from "../assets/clear.png"
 
 export default function WeatherCard({cityName,temperature,
           weatherStatus ,
