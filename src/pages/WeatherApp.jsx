@@ -61,7 +61,7 @@ export default function WeatherApp() {
     padding: "8px",
     fontSize: "16px",
     borderRadius: "30px",
-    background: "rgba(255, 255, 255, 0.08,"
+    background: "rgba(255, 255, 255, 0.08)"
   };
 
   return (
