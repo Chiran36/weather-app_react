@@ -1,0 +1,7 @@
+.data-box{
+    height: 100px;
+    width:100%;
+background: linear-gradient(to right, #3b82f6, #9333ea);    padding: 20px;
+    border-radius: 20px;
+    
+}
